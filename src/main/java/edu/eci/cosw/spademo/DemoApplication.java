@@ -47,23 +47,15 @@ public class DemoApplication {
 		@Override
 		protected void configure(HttpSecurity http) throws Exception {
 			http
-				.httpBasic()
-				.and()
-				.authorizeRequests()
-					.antMatchers("/app/**", "/logout", "/login").permitAll()
+					.httpBasic()
+					.and()
+					.authorizeRequests()
+					.antMatchers("/app/**","/logout","/login").permitAll()
 					.anyRequest().authenticated().and()
 					.logout().logoutSuccessUrl("/")
-					/*
-				.and()
-					.csrf()
+					.and().csrf()
 					.csrfTokenRepository(csrfTokenRepository()).and()
-					.addFilterAfter(csrfHeaderFilter(), CsrfFilter.class)
-					*/
-				.and()
-					.authorizeRequests()
-					.anyRequest()
-					.authenticated();
-
+					.addFilterAfter(csrfHeaderFilter(), CsrfFilter.class);
 		}
 
 		private Filter csrfHeaderFilter() {

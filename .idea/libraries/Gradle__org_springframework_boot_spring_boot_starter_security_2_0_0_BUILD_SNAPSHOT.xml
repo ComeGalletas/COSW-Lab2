@@ -2,10 +2,12 @@
   <library name="Gradle: org.springframework.boot:spring-boot-starter-security:2.0.0.BUILD-SNAPSHOT">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-security/2.0.0.BUILD-SNAPSHOT/a0312612a1e2e46ef97d9739e86e59229fc57fb8/spring-boot-starter-security-2.0.0.BUILD-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-security/2.0.0.BUILD-SNAPSHOT/cb2961e4f40848a0f6bafda89f1bd735b16aa796/spring-boot-starter-security-2.0.0.BUILD-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-security/2.0.0.BUILD-SNAPSHOT/8b86c3157bc99333770335ce9b5b8e1590ca0057/spring-boot-starter-security-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-security/2.0.0.BUILD-SNAPSHOT/dacde6eb72422fb340cbd43e70de51cf80ea9147/spring-boot-starter-security-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

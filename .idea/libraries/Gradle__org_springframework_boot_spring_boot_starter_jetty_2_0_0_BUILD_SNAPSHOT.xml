@@ -3,11 +3,13 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jetty/2.0.0.BUILD-SNAPSHOT/ec1946da384d34938f0bebd03415d25d5bf4b195/spring-boot-starter-jetty-2.0.0.BUILD-SNAPSHOT.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jetty/2.0.0.BUILD-SNAPSHOT/de4d6a42fa3de6e8a6ae0675375a808aedd62de8/spring-boot-starter-jetty-2.0.0.BUILD-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jetty/2.0.0.BUILD-SNAPSHOT/f04af6aee5dfced29dbdc13054a3fbd4129bc153/spring-boot-starter-jetty-2.0.0.BUILD-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jetty/2.0.0.BUILD-SNAPSHOT/823e7bcc0ed6bd0af82f582374895652db86625f/spring-boot-starter-jetty-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jetty/2.0.0.BUILD-SNAPSHOT/e86ebf3928f550ed01b95f38f915f90ec185303d/spring-boot-starter-jetty-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jetty/2.0.0.BUILD-SNAPSHOT/47dd2c8c4ab4098b92546c6c9ededf2f361c9de1/spring-boot-starter-jetty-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
