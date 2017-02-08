@@ -5,8 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5dde960-7c50-4b54-bfd9-faea34f11021" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/Lab2_main.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/app/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/app/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/app/components/version/interpolate-filter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/app/components/version/interpolate-filter_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/app/components/version/version-directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/app/components/version/version-directive_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/app/components/version/version.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/app/components/version/version_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/app/index-async.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/app/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/app/services/services.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/app/view1/view1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/app/view1/view1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/app/view1/view1_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/app/view2/view2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/app/view2/view2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/app/view2/view2_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/app/view3/view3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/app/view3/view3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/app/view3/view3_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/e2e-tests/protractor.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/e2e-tests/scenarios.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/Lab2/static/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/app/app.css" afterPath="" />
@@ -69,37 +100,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/e2e-tests/scenarios.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/karma.conf.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/package.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jetty_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jetty_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_security_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_security_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_5_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_5_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_5_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_5_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_5_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_5_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_web_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_web_5_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_webmvc_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_webmvc_5_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/application.properties" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/static/app/view1/view1.html" afterPath="$PROJECT_DIR$/build/resources/main/static/app/view1/view1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/eci/cosw/spademo/DemoApplication.java" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cosw/spademo/DemoApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/eci/cosw/spademo/UsersController.java" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cosw/spademo/UsersController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/app/app.js" afterPath="$PROJECT_DIR$/src/main/resources/static/app/app.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -159,7 +160,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
+            <state relative-caret-position="675">
               <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
               <folding />
             </state>
@@ -1702,7 +1703,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
+        <state relative-caret-position="675">
           <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
           <folding />
         </state>
