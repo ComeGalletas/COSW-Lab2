@@ -3,6 +3,8 @@ package edu.eci.cosw.spademo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * Created by juanpa_507 on 1/02/17.
  */
@@ -25,7 +27,7 @@ public class TaskManager {
         return taskPersistence.getTask(description);
     }
 
-    public Task[] getTasks(){
+    public List<Task> getTasks(){
         return taskPersistence.getTasks();
     }
 

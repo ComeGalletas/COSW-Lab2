@@ -2,6 +2,7 @@ package edu.eci.cosw.spademo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 import org.springframework.boot.autoconfigure.security.SecurityProperties;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.annotation.Order;
@@ -24,12 +25,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+
 @SpringBootApplication
 public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
+
 
 	@Configuration
 	@EnableGlobalMethodSecurity(prePostEnabled = true)
@@ -44,15 +47,23 @@ public class DemoApplication {
 		@Override
 		protected void configure(HttpSecurity http) throws Exception {
 			http
-					.httpBasic()
-					.and()
-					.authorizeRequests()
+				.httpBasic()
+				.and()
+				.authorizeRequests()
 					.antMatchers("/app/**", "/logout", "/login").permitAll()
 					.anyRequest().authenticated().and()
 					.logout().logoutSuccessUrl("/")
-					.and().csrf()
+					/*
+				.and()
+					.csrf()
 					.csrfTokenRepository(csrfTokenRepository()).and()
-					.addFilterAfter(csrfHeaderFilter(), CsrfFilter.class);
+					.addFilterAfter(csrfHeaderFilter(), CsrfFilter.class)
+					*/
+				.and()
+					.authorizeRequests()
+					.anyRequest()
+					.authenticated();
+
 		}
 
 		private Filter csrfHeaderFilter() {
@@ -61,8 +72,7 @@ public class DemoApplication {
 				protected void doFilterInternal(HttpServletRequest request,
 												HttpServletResponse response, FilterChain filterChain)
 						throws ServletException, IOException {
-					CsrfToken csrf = (CsrfToken) request.getAttribute(CsrfToken.class
-							.getName());
+					CsrfToken csrf = (CsrfToken) request.getAttribute(CsrfToken.class.getName());
 					if (csrf != null) {
 						Cookie cookie = WebUtils.getCookie(request, "XSRF-TOKEN");
 						String token = csrf.getToken();
@@ -83,6 +93,6 @@ public class DemoApplication {
 			repository.setHeaderName("X-XSRF-TOKEN");
 			return repository;
 		}
-
 	}
+
 }

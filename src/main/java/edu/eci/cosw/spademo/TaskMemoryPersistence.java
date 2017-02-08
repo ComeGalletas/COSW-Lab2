@@ -2,7 +2,9 @@ package edu.eci.cosw.spademo;
 
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * Created by juanpa_507 on 1/02/17.
@@ -12,14 +14,21 @@ public class TaskMemoryPersistence implements TaskPersistenceInterface {
 
     private HashMap<String, Task> tasks = new HashMap<>();
 
-    @Override
-    public Task addNewTask(String description, int priority) {
-        return tasks.put(description, new Task(description, priority));
+    public TaskMemoryPersistence(){
+        this.addNewTask("ola", 1);
+        this.addNewTask("ke", 2);
+        this.addNewTask("ase", 3);
     }
 
     @Override
-    public Task addNewTask(Task task) {
-        return tasks.put(task.getDescription(), task);
+    public Task addNewTask(String description, int priority) {
+        Task newTask = new Task(description, priority);
+        return (tasks.put(newTask.getDescription(), newTask) == null ? newTask : null);
+    }
+
+    @Override
+    public Task addNewTask(Task newTask) {
+        return (tasks.put(newTask.getDescription(), newTask) == null ? newTask : null);
     }
 
     @Override
@@ -28,7 +37,8 @@ public class TaskMemoryPersistence implements TaskPersistenceInterface {
     }
 
     @Override
-    public Task[] getTasks() {
-        return (Task[])tasks.values().toArray();
+    public List<Task> getTasks() {
+        List<Task> list = new ArrayList<Task>(tasks.values());
+        return list;
     }
 }

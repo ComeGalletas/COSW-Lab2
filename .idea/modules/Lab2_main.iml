@@ -67,6 +67,5 @@
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.22" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-server:9.4.1.v20170120" level="project" />
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm-tree:5.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.jayway.jsonpath:json-path:2.2.0" level="project" />
   </component>
 </module>

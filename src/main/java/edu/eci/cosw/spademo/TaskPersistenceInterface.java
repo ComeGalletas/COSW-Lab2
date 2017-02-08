@@ -1,5 +1,7 @@
 package edu.eci.cosw.spademo;
 
+import java.util.List;
+
 /**
  * Created by juanpa_507 on 1/02/17.
  */
@@ -9,6 +11,6 @@ public interface TaskPersistenceInterface {
     Task addNewTask(Task task);
 
     Task getTask(String description);
-    Task[] getTasks();
+    List<Task> getTasks();
 
 }
