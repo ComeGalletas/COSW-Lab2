@@ -7,10 +7,10 @@ import java.util.List;
  */
 public interface TaskPersistenceInterface {
 
-    Task addNewTask(String description, int priority);
+    Task addNewTask(String user, String description, int priority);
     Task addNewTask(Task task);
 
-    Task getTask(String description);
+    Task getTask(String user);
     List<Task> getTasks();
 
 }

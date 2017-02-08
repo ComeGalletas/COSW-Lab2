@@ -15,8 +15,8 @@ public class TaskManager {
     private TaskPersistenceInterface taskPersistence;
 
 
-    public Task addNewTask(String description, int priority){
-        return taskPersistence.addNewTask(description, priority);
+    public Task addNewTask(String user, String description, int priority){
+        return taskPersistence.addNewTask(user, description, priority);
     }
 
     public Task addNewTask(Task newTask){

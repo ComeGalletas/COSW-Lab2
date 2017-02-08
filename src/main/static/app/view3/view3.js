@@ -8,8 +8,10 @@ angular.module('myApp.view3', ['ngRoute'])
     controller: 'View3Ctrl'
   });
 }])
-.controller('View3Ctrl', ['$scope', 'fabrica',  'orderByFilter', function($scope, fabrica, orderBy){
-    $scope.listado=fabrica.getListado();
+.controller('View3Ctrl', ['$scope', 'fabrica', 'Tasks', 'orderByFilter', function($scope, fabrica, Tasks, orderBy){
+    //$scope.listado=fabrica.getListado();
+
+    $scope.listado = Tasks.query();
     
     $scope.key = 'priority';
     $scope.reverse = true;

@@ -15,14 +15,14 @@ public class TaskMemoryPersistence implements TaskPersistenceInterface {
     private HashMap<String, Task> tasks = new HashMap<>();
 
     public TaskMemoryPersistence(){
-        this.addNewTask("ola", 1);
-        this.addNewTask("ke", 2);
-        this.addNewTask("ase", 3);
+        this.addNewTask("user", "ola", 1);
+        this.addNewTask("user","ke", 2);
+        this.addNewTask("user","ase", 3);
     }
 
     @Override
-    public Task addNewTask(String description, int priority) {
-        Task newTask = new Task(description, priority);
+    public Task addNewTask(String user, String description, int priority) {
+        Task newTask = new Task(user, description, priority);
         return (tasks.put(newTask.getDescription(), newTask) == null ? newTask : null);
     }
 
@@ -32,8 +32,8 @@ public class TaskMemoryPersistence implements TaskPersistenceInterface {
     }
 
     @Override
-    public Task getTask(String description) {
-        return tasks.get(description);
+    public Task getTask(String user) {
+        return tasks.get(user);
     }
 
     @Override

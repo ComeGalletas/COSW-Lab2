@@ -12,4 +12,13 @@ angular.module('services.listFactory', ['ngRoute', 'ngResource'])
             addTodo: function (todo) {
                 data.listado.push(todo);
             }};
+    })
+    .factory('Tasks', function($resource) {
+        return $resource('/app/tasks');
+    })
+    .factory("Task", function ($resource) {
+        return $resource("/app/tasks",{
+                method: 'POST'
+            }
+        );
     });
